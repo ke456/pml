@@ -1,0 +1,423 @@
+./check_mem.sh: line 6: syntax error: unexpected end of file
+Testing charpoly with random input polynomials
+-- n = 20000
+-- m = 8
+-- d = 2500
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 20000 polynomial>
+--point a = <degree 20000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00248011
+TIME ~~ pre-computations to work with a mod g: 0.014103
+-enter pows
+pow1: 0.123832
+pow2: 0.186116
+-total pow: 0.309999
+-enter quos
+setup: 0.000122679
+build matrices: 0.0161895
+mat mul: 0.417647
+clean up: 0.000995798
+-total quos: 0.443417
+-rest from row1: 0.00780304
+--all first row: 0.763947
+fill all: 0.00406416
+format: 0.00341283
+TIME ~~ compute sequence for block Wiedemann: 0.77147
+TIME ~~ matrix fraction reconstruction: 0.640498
+TIME ~~ determinant for charpoly: 0.199049
+TIME ~~ NTL's charpoly of a mod g: 1.4157
+TIME ~~ charpoly of a mod g: 1.62512 (correct)
+Testing charpoly with random input polynomials
+-- n = 40000
+-- m = 9
+-- d = 4445
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 40000 polynomial>
+--point a = <degree 40000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.0017513
+TIME ~~ pre-computations to work with a mod g: 0.0220021
+-enter pows
+pow1: 0.348694
+pow2: 0.523606
+-total pow: 0.872356
+-enter quos
+setup: 0.000282575
+build matrices: 0.0449499
+mat mul: 1.35156
+clean up: 0.00225702
+-total quos: 1.42309
+-rest from row1: 0.0161608
+--all first row: 2.31908
+fill all: 0.00924438
+format: 0.00873951
+TIME ~~ compute sequence for block Wiedemann: 2.33716
+      (using pmbasis non generic, because m*d != n)
+TIME ~~ matrix fraction reconstruction: 2.896
+TIME ~~ determinant for charpoly: 0.513269
+TIME ~~ NTL's charpoly of a mod g: 4.66073
+TIME ~~ charpoly of a mod g: 5.76843 (correct)
+Testing charpoly with random input polynomials
+-- n = 60000
+-- m = 10
+-- d = 6000
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 60000 polynomial>
+--point a = <degree 60000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00250228
+TIME ~~ pre-computations to work with a mod g: 0.0234389
+-enter pows
+pow1: 0.57282
+pow2: 0.848693
+-total pow: 1.42157
+-enter quos
+setup: 0.000445344
+build matrices: 0.0738078
+mat mul: 2.6527
+clean up: 0.00327642
+-total quos: 2.76005
+-rest from row1: 0.0238451
+--all first row: 4.21529
+fill all: 0.0118088
+format: 0.00984596
+TIME ~~ compute sequence for block Wiedemann: 4.23704
+TIME ~~ matrix fraction reconstruction: 3.37268
+TIME ~~ determinant for charpoly: 0.691461
+TIME ~~ NTL's charpoly of a mod g: 8.45974
+TIME ~~ charpoly of a mod g: 8.32462 (correct)
+Testing charpoly with random input polynomials
+-- n = 80000
+-- m = 10
+-- d = 8000
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 80000 polynomial>
+--point a = <degree 80000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00318452
+TIME ~~ pre-computations to work with a mod g: 0.0477955
+-enter pows
+pow1: 1.04259
+pow2: 1.5311
+-total pow: 2.57376
+-enter quos
+setup: 0.00162858
+build matrices: 0.113636
+mat mul: 4.40282
+clean up: 0.00587726
+-total quos: 4.57496
+-rest from row1: 0.0323606
+--all first row: 7.19953
+fill all: 0.0196947
+format: 0.0180846
+TIME ~~ compute sequence for block Wiedemann: 7.23744
+TIME ~~ matrix fraction reconstruction: 3.93672
+TIME ~~ determinant for charpoly: 0.83102
+run_charpoly.sh: line 5: 30490 Terminated              ./test_charpolymod 80000 0.21
+Testing charpoly with random input polynomials
+-- n = 100000
+-- m = 11
+-- d = 9091
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 100000 polynomial>
+--point a = <degree 100000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00411497
+TIME ~~ pre-computations to work with a mod g: 0.0461313
+run_charpoly.sh: line 6: 30515 Terminated              ./test_charpolymod 100000 0.21
+Testing charpoly with random input polynomials
+-- n = 20000
+-- m = 8
+-- d = 2500
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 20000 polynomial>
+--point a = <degree 20000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00172694
+TIME ~~ pre-computations to work with a mod g: 0.0106602
+-enter pows
+pow1: 0.123993
+pow2: 0.18614
+-total pow: 0.310184
+-enter quos
+setup: 0.000123589
+build matrices: 0.0160573
+mat mul: 0.417119
+clean up: 0.000997864
+-total quos: 0.442879
+-rest from row1: 0.00780542
+--all first row: 0.763887
+fill all: 0.00406324
+format: 0.00344693
+TIME ~~ compute sequence for block Wiedemann: 0.771445
+TIME ~~ matrix fraction reconstruction: 0.640385
+TIME ~~ determinant for charpoly: 0.201974
+TIME ~~ NTL's charpoly of a mod g: 1.42623
+TIME ~~ charpoly of a mod g: 1.62446 (correct)
+Testing charpoly with random input polynomials
+-- n = 40000
+-- m = 9
+-- d = 4445
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 40000 polynomial>
+--point a = <degree 40000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00174923
+TIME ~~ pre-computations to work with a mod g: 0.0205233
+-enter pows
+pow1: 0.346383
+pow2: 0.51871
+-total pow: 0.865148
+-enter quos
+setup: 0.000277382
+build matrices: 0.0473746
+mat mul: 1.35787
+clean up: 0.00235048
+-total quos: 1.42888
+-rest from row1: 0.0159752
+--all first row: 2.31709
+fill all: 0.00908863
+format: 0.00849495
+TIME ~~ compute sequence for block Wiedemann: 2.33475
+      (using pmbasis non generic, because m*d != n)
+TIME ~~ matrix fraction reconstruction: 2.89178
+TIME ~~ determinant for charpoly: 0.511851
+TIME ~~ NTL's charpoly of a mod g: 4.65589
+TIME ~~ charpoly of a mod g: 5.75891 (correct)
+Testing charpoly with random input polynomials
+-- n = 60000
+-- m = 10
+-- d = 6000
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 60000 polynomial>
+--point a = <degree 60000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00253173
+TIME ~~ pre-computations to work with a mod g: 0.0234564
+-enter pows
+pow1: 0.572577
+pow2: 0.843821
+-total pow: 1.41646
+-enter quos
+setup: 0.000437701
+build matrices: 0.0740827
+mat mul: 2.6623
+clean up: 0.00314114
+-total quos: 2.76802
+-rest from row1: 0.0238092
+--all first row: 4.21798
+fill all: 0.0117518
+format: 0.00957731
+TIME ~~ compute sequence for block Wiedemann: 4.23941
+TIME ~~ matrix fraction reconstruction: 3.38115
+TIME ~~ determinant for charpoly: 0.692501
+TIME ~~ NTL's charpoly of a mod g: 8.4539
+TIME ~~ charpoly of a mod g: 8.33652 (correct)
+Testing charpoly with random input polynomials
+-- n = 80000
+-- m = 10
+-- d = 8000
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 80000 polynomial>
+--point a = <degree 80000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00323557
+TIME ~~ pre-computations to work with a mod g: 0.0443958
+-enter pows
+pow1: 1.04276
+pow2: 1.52959
+-total pow: 2.57241
+-enter quos
+setup: 0.000828889
+build matrices: 0.111097
+mat mul: 4.41014
+clean up: 0.00456484
+-total quos: 4.57799
+-rest from row1: 0.0321245
+--all first row: 7.20049
+fill all: 0.020648
+format: 0.0194028
+TIME ~~ compute sequence for block Wiedemann: 7.24069
+TIME ~~ matrix fraction reconstruction: 3.94295
+TIME ~~ determinant for charpoly: 0.830761
+TIME ~~ NTL's charpoly of a mod g: 16.5539
+TIME ~~ charpoly of a mod g: 12.0588 (correct)
+Testing charpoly with random input polynomials
+-- n = 100000
+-- m = 11
+-- d = 9091
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 100000 polynomial>
+--point a = <degree 100000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00471516
+TIME ~~ pre-computations to work with a mod g: 0.0529802
+-enter pows
+pow1: 1.35149
+pow2: 1.97862
+-total pow: 3.33017
+-enter quos
+setup: 0.00100891
+build matrices: 0.148415
+mat mul: 6.29499
+clean up: 0.00534361
+-total quos: 6.51221
+-rest from row1: 0.0415205
+--all first row: 9.90408
+fill all: 0.0213372
+format: 0.0206337
+TIME ~~ compute sequence for block Wiedemann: 9.9462
+      (using pmbasis non generic, because m*d != n)
+TIME ~~ matrix fraction reconstruction: 10.5261
+TIME ~~ determinant for charpoly: 1.64997
+TIME ~~ NTL's charpoly of a mod g: 23.2117
+TIME ~~ charpoly of a mod g: 22.1752 (correct)
+Testing charpoly with random input polynomials
+-- n = 20000
+-- m = 7
+-- d = 2858
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 20000 polynomial>
+--point a = <degree 20000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.000929181
+TIME ~~ pre-computations to work with a mod g: 0.0105011
+-enter pows
+pow1: 0.135222
+pow2: 0.196201
+-total pow: 0.331471
+-enter quos
+setup: 0.000141391
+build matrices: 0.0194295
+mat mul: 0.45144
+clean up: 0.00115451
+-total quos: 0.482483
+-rest from row1: 0.00712401
+--all first row: 0.823701
+fill all: 0.00286953
+format: 0.00230782
+TIME ~~ compute sequence for block Wiedemann: 0.828922
+      (using pmbasis non generic, because m*d != n)
+TIME ~~ matrix fraction reconstruction: 0.796541
+TIME ~~ determinant for charpoly: 0.170073
+TIME ~~ NTL's charpoly of a mod g: 1.43061
+TIME ~~ charpoly of a mod g: 1.80604 (correct)
+Testing charpoly with random input polynomials
+-- n = 40000
+-- m = 8
+-- d = 5000
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 40000 polynomial>
+--point a = <degree 40000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00176045
+TIME ~~ pre-computations to work with a mod g: 0.0233272
+-enter pows
+pow1: 0.368563
+pow2: 0.54022
+-total pow: 0.908836
+-enter quos
+setup: 0.000343991
+build matrices: 0.0478641
+mat mul: 1.49584
+clean up: 0.00231895
+-total quos: 1.57068
+-rest from row1: 0.015857
+--all first row: 2.50292
+fill all: 0.00828433
+format: 0.0080486
+TIME ~~ compute sequence for block Wiedemann: 2.51934
+TIME ~~ matrix fraction reconstruction: 1.4412
+TIME ~~ determinant for charpoly: 0.436071
+TIME ~~ NTL's charpoly of a mod g: 4.68571
+TIME ~~ charpoly of a mod g: 4.41994 (correct)
+Testing charpoly with random input polynomials
+-- n = 60000
+-- m = 9
+-- d = 6667
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 60000 polynomial>
+--point a = <degree 60000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00251599
+TIME ~~ pre-computations to work with a mod g: 0.0221277
+-enter pows
+pow1: 0.603715
+pow2: 0.877875
+-total pow: 1.48165
+-enter quos
+setup: 0.000585102
+build matrices: 0.090109
+mat mul: 2.841
+clean up: 0.00349408
+-total quos: 2.97383
+-rest from row1: 0.0245943
+--all first row: 4.4921
+fill all: 0.0109614
+format: 0.00945039
+TIME ~~ compute sequence for block Wiedemann: 4.51261
+      (using pmbasis non generic, because m*d != n)
+TIME ~~ matrix fraction reconstruction: 3.41239
+TIME ~~ determinant for charpoly: 0.604733
+TIME ~~ NTL's charpoly of a mod g: 8.49026
+TIME ~~ charpoly of a mod g: 8.55185 (correct)
+Testing charpoly with random input polynomials
+-- n = 80000
+-- m = 9
+-- d = 8889
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 80000 polynomial>
+--point a = <degree 80000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00327351
+TIME ~~ pre-computations to work with a mod g: 0.048068
+-enter pows
+pow1: 1.10018
+pow2: 1.61353
+-total pow: 2.71378
+-enter quos
+setup: 0.000998582
+build matrices: 0.12681
+mat mul: 4.78539
+clean up: 0.00497341
+-total quos: 4.97657
+-rest from row1: 0.0318489
+--all first row: 7.74321
+fill all: 0.0180807
+format: 0.0180136
+TIME ~~ compute sequence for block Wiedemann: 7.77951
+      (using pmbasis non generic, because m*d != n)
+TIME ~~ matrix fraction reconstruction: 6.43154
+TIME ~~ determinant for charpoly: 1.09667
+TIME ~~ NTL's charpoly of a mod g: 16.5022
+TIME ~~ charpoly of a mod g: 15.3558 (correct)
+Testing charpoly with random input polynomials
+-- n = 100000
+-- m = 10
+-- d = 10000
+--prime = 882705526964617217
+--nthreads = 1
+--modulus g = <degree 100000 polynomial>
+--point a = <degree 100000 polynomial>
+TIME ~~ build polynomials and compute parameters: 0.00464256
+TIME ~~ pre-computations to work with a mod g: 0.0491433
+-enter pows
+pow1: 1.42885
+pow2: 2.06951
+-total pow: 3.49842
+-enter quos
+setup: 0.00117076
+build matrices: 0.157006
+mat mul: 6.7313
+clean up: 0.0054791
+-total quos: 6.96561
+-rest from row1: 0.0400878
+--all first row: 10.5242
+fill all: 0.0197323
+format: 0.0195342
+TIME ~~ compute sequence for block Wiedemann: 10.5636
+TIME ~~ matrix fraction reconstruction: 5.41685
+TIME ~~ determinant for charpoly: 1.43768
+TIME ~~ NTL's charpoly of a mod g: 23.1388
+TIME ~~ charpoly of a mod g: 17.4673 (correct)

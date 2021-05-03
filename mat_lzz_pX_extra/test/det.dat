@@ -1,0 +1,21 @@
+Testing determinant with random input matrix
+--prime =	599903100750338689
+--rdim =	64
+--degree =	2048
+Time(triangular):	97.790	(ok)
+Time(system-solve):	191.885	(ok)
+Time(ev-geometric):	128.990	(ok)
+Testing determinant with random input matrix
+--prime =	872840099926182301
+--rdim =	128
+--degree =	2048
+Time(triangular):	553.534	(ok)
+Time(system-solve):	1171.252	(ok)
+./run_det.sh: line 2: 20688 Killed                  ./test_determinant 128 2048
+Testing determinant with random input matrix
+--prime =	807054657032651539
+--rdim =	256
+--degree =	1024
+Time(triangular):	1406.135	(ok)
+Time(system-solve):	3700.361	(ok)
+./run_det.sh: line 3: 20905 Killed                  ./test_determinant 256 1024
